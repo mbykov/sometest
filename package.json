@@ -1,6 +1,6 @@
 {
   "name": "sometest",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "productName": "SOME TEST",
   "description": "Some Electron application",
   "private": true,
@@ -72,7 +72,8 @@
     "e2e": "mocha temp/e2e.js --require source-map-support/register",
     "test": "npm run unit && npm run e2e",
     "start": "node build/start.js",
-    "release": "npm test && webpack --config=build/webpack.app.config.js --env=production && electron-builder"
+    "release_": "npm test && webpack --config=build/webpack.app.config.js --env=production && electron-builder",
+    "release": "webpack --config=build/webpack.app.config.js --env=production && electron-builder"
   },
   "dependencies": {
     "fs-jetpack": "^1.0.0"
@@ -84,9 +85,9 @@
     "babel-plugin-transform-object-rest-spread": "^7.0.0-beta.3",
     "chai": "^4.1.0",
     "css-loader": "^0.28.7",
-    "electron": "^4.0.1",
-    "electron-builder": "^20.13.4",
-    "electron-mocha": "^5.0.0",
+    "electron": "4.0.0",
+    "electron-builder": "^20.28.4",
+    "electron-mocha": "^6.0.4",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "mocha": "^4.0.1",
     "source-map-support": "^0.5.10",
