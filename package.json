@@ -1,6 +1,6 @@
 {
   "name": "sometest",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "productName": "SOME TEST",
   "description": "Some Electron application",
   "private": true,
