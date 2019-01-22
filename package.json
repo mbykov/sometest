@@ -2,7 +2,7 @@
   "name": "sometest",
   "productName": "SOME TEST",
   "description": "Some Electron application",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "author": "Michael  Bykov <m.bykov@gmail.com>",
   "copyright": "© 2018, Michael Bykov",
